@@ -1,0 +1,11 @@
+# .gitignore
+/bitrix/
+/local/
+/upload/
+/.settings.php
+/bitrixsetup.php
+/.idea/
+/vendor/
+/.DS_Store
+.env
+*.log
