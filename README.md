@@ -1,6 +1,6 @@
-# 🚀 Laravel Docker Starter
+# 🚀 Bitrix Docker Starter
 
-Минимальная Docker-сборка для быстрого старта Laravel-проекта.  
+Минимальная Docker-сборка для быстрого старта Bitrix-проекта.
 
 ---
 
@@ -14,10 +14,10 @@
 ##  Быстрый запуск
 
 ```bash
-git clone https://github.com/Jlblcuk/start_php8.2-Laravel12-MySQL8.git
+git clone https://github.com/Jlblcuk/start_php8.1-bitrix.git
 ```
 ```bash
-cd start_php8.2-Laravel12-MySQL8
+cd start_php8.1-bitrix
 ```
 ```bash
 ./start.sh
@@ -27,16 +27,13 @@ cd start_php8.2-Laravel12-MySQL8
 make install
 ```
 
-Laravel будет доступен по: [http://localhost](http://localhost)
+Bitrix будет доступен по: [http://localhost](http://localhost)
 
 
-echo
-echo "✅ Success! Open in your browser:"
-echo "   http://localhost/bitrixsetup.php"
-echo
-echo "During installation, use these DB settings:"
-echo "   Host: db"
-echo "   Port: 3306"
-echo "   Database: bitrix"
-echo "   Login: bitrix"
-echo "   Password: bitrix"
+Настройки для БД Bitrix после установки скрипта:
+
+Host: db
+Port: 3306
+Database: bitrix
+Login: bitrix
+Password: bitrix
