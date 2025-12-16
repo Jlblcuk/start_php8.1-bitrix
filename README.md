@@ -29,7 +29,7 @@ make install
 
 Bitrix будет доступен по: [http://localhost](http://localhost)
 
-
+---
 
 Настройки для БД Bitrix после установки скрипта:
 
