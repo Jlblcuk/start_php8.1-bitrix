@@ -33,7 +33,11 @@ Bitrix будет доступен по: [http://localhost](http://localhost)
 Настройки для БД Bitrix после установки скрипта:
 
 Host: db
+
 Port: 3306
+
 Database: bitrix
+
 Login: bitrix
+
 Password: bitrix
