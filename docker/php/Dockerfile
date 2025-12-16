@@ -9,13 +9,19 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     libzip-dev \
     libfreetype6-dev \
-    libjpeg62-turbo-dev \
+    libjpeg-dev \
     libwebp-dev \
     libxpm-dev \
-    libldap2-dev \
     libldb-dev \
+    libldap2-dev \
     libldap-common \
-    && docker-php-ext-configure gd --with-freetype --with-jpeg --with-webp --with-xpm \
+    libicu-dev \
+    pkg-config \
+    && docker-php-ext-configure gd \
+        --with-freetype \
+        --with-jpeg \
+        --with-webp \
+        --with-xpm \
     && docker-php-ext-install -j$(nproc) \
         gd \
         pdo_mysql \
